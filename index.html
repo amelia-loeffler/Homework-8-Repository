@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8</title>
+</head>
+<body>
+<h1>Homework 8: Geoprocesssing Analysis </h1>
+<h2>Amelia Loeffler</h2>
+<h3> For this homework, I wanted to answer the question “how many little free libraries are within a 2.1 mile radius of public libraries in Lexington, Kentucky?” 
+
+    I chose this question after reading an article from the Journal of Radical Librarianship about how “Little Free Libraries” are often not placed in areas with limited access to books, and therefore are examples of “performative community enhancement” because they are driven more by a desire to present oneself a certain way in a neighborhood than they are to improve literacy rates or access to books. 
+    
+    I mapped all of the public libraries and “Little Free Libraries” in my Lexington, KY (my hometown) to see if this was true. 
+    
+    I discovered that in the U.S. the population weighted average for distance to a public library is 2.1 miles, so I used this distance to make the buffer around public libraries on my map. I then dissolved the buffers around each point into one polygon, and used internet to see the points of each “Little Free Library” within the polygon. 
+    
+     </h3>
+<!-- Your map goes here -->
+<a href="Homework 8 Map.png">
+    <img src="Homework 8 Map.png" alt="Homework 8 Map" width='1000px'>
+    </a>
+
+    <h3> The geoprocessing tools I used for this homework include: buffer, disolve, and intersect.  </h3>
+
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Data used for this project</h2>
+    <a href="https://github.com/amelia-loeffler/Homework-8-Repository/blob/main/data/Lexington%20Little%20Free%20Libraries%20-%20Sheet1.csv"> Little Free Library Data  </a>
+    <p></p>
+    <a href="https://github.com/amelia-loeffler/Homework-8-Repository/blob/main/data/Library.csv"> Lexington Public Library Data  </a>
+    <p></p>
+   
+<h2>Data used for this project</h2>
+    <a href="https://journal.radicallibrarianship.org/index.php/journal/article/view/17/32"> Link to article from Journal of Radical Librarianship </a>
+    <p></p>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0740818815000869#f0020
+    "> Link to data on average distance to public libraries </a>
+    <p></p>
+    <a href="https://lexfun4kids.com/find-a-tiny-library-in-lexington/"> Lex, KY Little Free Libraries (1) </a>
+    <p></p>
+    <a href="https://littlefreelibrary.org/map/"> Lex, KY Little Free Libraries (2) </a>
+    <p></p>
+
+
+</body>
+</html>
