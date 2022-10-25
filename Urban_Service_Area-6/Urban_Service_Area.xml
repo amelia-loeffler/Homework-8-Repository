@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf16" codeSpace="ISOTC211/19115">utf16</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp>
+        <gco:Date>2021-01-13</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <topologyLevel>
+                <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+            </topologyLevel>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                    <geometricObjectCount>
+                        <gco:Integer>1</gco:Integer>
+                    </geometricObjectCount>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>2246</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>5.3(9.0.0)</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Urban Service Area</gco:CharacterString>
+                    </title>
+                    <date gco:nilReason="missing"/>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>The urban service area boundary data layer is an integral part of the planning data in the Lexington-Fayette-Urban County Government Geographic Information System. This information is used by the Division of Planning in case review, enforcement, and long range planning. GIS data layers are accessed by personnel in most LFUCG divisions for basic applications such as viewing, querying, and map output production.This dataset is designed to represent and identify the urban service area in Lexington-Fayette County. The urban service area is the part of the county where urban services (city garbage collection, street lights, street sweeping) are provided and a higher density for development is allowed. The boundary is defined by Lexington-Fayette Urban County Council Ordinance. The boundary was originally approved in 1958 and has been occasionally modified. Any expansion to the boundary is considered during Division of Planning's comprehensive plan review process, but the recommendation from Planning must receive Urban County Council approval for alteration. After UCG Council approval is received the ordinance is forwarded to the GIS Office for inclusion in the dataset.The data is in ESRI feature class format, but can be exported to any number of supported formats, including shapefile and dxf. The native projection for the data is Kentucky State Plane North (NAD83), but may have been reprojected for use in other applications. Please check metadata to determine current projection.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>Boundary defining the urban service area. (Polygon)</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>LFUCG Division of Planning, LFUCG GIS Office</gco:CharacterString>
+            </credit>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Downloadable Data</gco:CharacterString>
+                    </keyword>
+                    <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>automated</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>open data</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>urban services</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>boundary</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg gis</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hub development</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>automated</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>open data</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>urban services</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>boundary</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg gis</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hub development</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>automated</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>open data</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>urban services</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>boundary</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg gis</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hub development</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>automated</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>open data</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>urban services</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>boundary</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg gis</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hub development</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>automated</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>open data</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>urban services</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>boundary</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg gis</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hub development</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>automated</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>open data</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>urban services</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>boundary</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg gis</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hub development</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>automated</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>open data</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>urban services</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>boundary</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg gis</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hub development</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>automated</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>open data</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>urban services</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>boundary</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg gis</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>lfucg</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hub development</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>I. INTRODUCTION As a convenience to potential users, the Lexington-­‐Fayette Urban County Government (“LFUCG”) makes a variety of datasets (“Data”) available for download through this website. Your use of the Data is subject to these terms of use, which constitute a legal agreement between You and the Lexington-­‐Fayette Urban County Government (“LFUCG”). This legal agreement is referred to as the “Terms of Use.”II. ACCEPTING THE TERMS OF USE A. Means of Acceptance: In order to use any of the Data, You must agree to these Terms of Use. You agree to the Terms of Use by either:(1) Clicking to accept the Terms of Use; or(2) Downloading or using any of the Data or any Derivative Work, in which case you understand and agree that the LFUCG will treat your download or use of the Data or a Derivative Work as an acceptance of the Terms of Use from that point forward.B. Authority to Accept: You represent that you have full capacity and authority to accept these Terms of Use. If you are accepting on behalf of your employer or another entity, you represent that you have full authority to bind your employer or such other entity to the Terms of Use.III. DEFINITIONS “Data” means any of the data that is available for download through lfucg.maps.arcgis.com or data.lexingtonky.gov and includes any updates to that data. “Derivative Work” means a work that is based in any way or to any extent on the Data including without limitation any work that uses any of the Data in a modified form. “You” or “Your” refers to any individual or entity that seeks to use the Data.IV. LFUCG'S INTELLECTUAL PROPERTY RIGHTS NOT AFFECTED If the LFUCG claims or seeks to protect any patent, copyright, or other intellectual property rights in any Data, the website will so indicate in the file containing such Data or on the page from which such Data is accessed. These Terms of Use do not grant You any title or right to any patent, copyright, or other such intellectual property rights that the LFUCG or others may have in the Data.V. EXCLUSION OF WARRANTIES A. The Data contains information and data compiled and processed by the LFUCG and third parties. The LFUCG makes no representation or warranty that the information contained in the Data is accurate, true or correct. In using the Data, you understand and agree that the information contained therein is subject to error, and cannot be relied upon without verification or site inspection.B. You understand and agree that your use of the Data is at your sole risk. The Data is made available on an &amp;quot;as is&amp;quot; and &amp;quot;as available&amp;quot; basis without any warranties of any kind, whether express or implied, including without limitation implied warranties of merchantability, fitness for a particular purpose, and non-­‐infringement. Should there be an error, inaccuracy, or other defect in the Data, you assume the full cost of correcting any such error, inaccuracy or defect.C. No advice or information, whether oral or written, obtained by you from the LFUCG or through or from the Data will create any warranty not expressly stated in these Terms of Use.VI. LIMITATION OF LIABILITY AND INDEMNITY A. In no event shall the LFUCG be liable for any direct, indirect, incidental, consequential or special damages (including without limitation, loss of use, time or data, inconvenience, commercial loss, lost profits or savings, or the cost of computer equipment and software), to the full extent that such may be disclaimed by law, or for any claim against You by any third party. In no event shall the LFUCG be liable for any claim, including claims by third parties, for loss or damages arising from erroneous Data or information contained in the Data.B. To the fullest extent permitted by law, You shall indemnify and save harmless the LFUCG, from any claim, loss, damage, injury or liability of any kind, nature and description (including, without limitation, incidental and consequential damages, court costs, attorney’s fees and costs of investigation), that arise directly or indirectly, in whole or in part, from Your use of the Data, including without limitation Your use of the Data in a Derivative Work. In addition to Your obligation to indemnify the LFUCG, You specifically acknowledge and agree that You have an immediate and independent obligation to defend the LFUCG from any claim which actually or potentially falls within this indemnification provision, even if the allegations are or may be groundless, false or fraudulent, which obligation arises at the time such claim is tendered to You by LFUCG and continues at all times thereafter.VII. ACCEPTANCE OF OTHER CONDITIONS For certain of the Data, there may be additional terms and conditions that are stated in the file containing such Data or on the page from which such Data is accessed. You understand and agree that You are bound by such additional terms and conditions.VIII. GENERAL PROVISIONS A. These Terms of Use shall be governed by and interpreted under the laws of the Commonwealth of Kentucky without regard to conflict of laws provisions. Any dispute arising out of these Terms of Use shall be subject to the exclusive venue of the state and federal courts within Fayette County, Kentucky, and You and the LFUCG hereby consent to the venue and jurisdiction of such courts.B. No modification to these Terms of Use, nor any waiver of any rights, shall be effective except by an instrument in writing signed by You and the LFUCG, and the waiver of any breach or default shall not constitute a waiver of any other right hereunder or any subsequent breach or default.C. These Terms of Use contain the entire agreement and understanding between You and the LFUCG with respect to the subject matter hereof and completely replace and supersede all prior agreements, understanding and representations. In no event will any additional terms or conditions be effective unless expressly accepted by the LFUCG in writing.D. If any provision of these Terms of Use is held to be invalid by a court of competent jurisdiction, then the remaining provisions will nevertheless remain in full force and effect.E. The LFUCG may modify these Terms of Use by posting notice of such modifications on this page. Any modification is effective upon posting, unless otherwise indicated.F. You agree that, if the LFUCG does not exercise or enforce any legal right or remedy contained in these Terms of Use (or that the LFUCG has the benefit of under any applicable law), this will not be taken to be a formal waiver of the LFUCG’s rights and that those rights or remedies will still be available to the LFUCG. Any waiver of any provision of these Terms of Use will be effective only if the LFUCG expressly states in a signed writing that it is waiving a specified provision.</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <environmentDescription>
+                <gco:CharacterString> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</gco:CharacterString>
+            </environmentDescription>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <extentTypeCode>
+                                <gco:Boolean>true</gco:Boolean>
+                            </extentTypeCode>
+                            <westBoundLongitude>
+                                <gco:Decimal>-84.605446</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-84.366</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>37.932314</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>38.117145</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat>
+                <MD_Format>
+                    <name>
+                        <gco:CharacterString>Feature Class</gco:CharacterString>
+                    </name>
+                    <version gco:nilReason="missing"/>
+                </MD_Format>
+            </distributionFormat>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact gco:nilReason="missing"/>
+                    <distributorFormat>
+                        <MD_Format>
+                            <name>
+                                <gco:CharacterString>Feature Class</gco:CharacterString>
+                            </name>
+                            <version gco:nilReason="missing"/>
+                        </MD_Format>
+                    </distributorFormat>
+                    <distributorTransferOptions>
+                        <MD_DigitalTransferOptions/>
+                    </distributorTransferOptions>
+                </MD_Distributor>
+            </distributor>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>
