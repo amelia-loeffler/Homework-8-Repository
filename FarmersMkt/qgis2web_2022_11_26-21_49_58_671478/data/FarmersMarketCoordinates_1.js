@@ -1,0 +1,1 @@
+var json_FarmersMarketCoordinates_1 = {"type":"FeatureCollection","name":"FarmersMarketCoordinates_1","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[]}
